@@ -14,7 +14,6 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 
-
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.metrics import classification_report
